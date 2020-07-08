@@ -1,0 +1,17 @@
+{
+  "name": "chapter13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-browserstack-chrome": "testcafe 'browserstack:chrome@50.0:OS X Yosemite' 'tests/RegistrationTest.js' ",
+    "test-browserstack-edge": "testcafe 'browserstack:edge@83.0:Windows 8.1' 'tests/RegistrationTest.js' "
+
+  },
+  "author": "Moataz Nabil",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.8.7",
+    "testcafe-browser-provider-browserstack": "^1.13.0"
+  }
+}
